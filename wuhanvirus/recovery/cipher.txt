@@ -1,0 +1,42 @@
+
+   A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+  ----------------------------------------------------
+A| A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+B| B C D E F G H I J K L M N O P Q R S T U V W X Y Z A 
+C| C D E F G H I J K L M N O P Q R S T U V W X Y Z A B 
+D| D E F G H I J K L M N O P Q R S T U V W X Y Z A B C 
+E| E F G H I J K L M N O P Q R S T U V W X Y Z A B C D 
+F| F G H I J K L M N O P Q R S T U V W X Y Z A B C D E 
+G| G H I J K L M N O P Q R S T U V W X Y Z A B C D E F 
+H| H I J K L M N O P Q R S T U V W X Y Z A B C D E F G 
+I| I J K L M N O P Q R S T U V W X Y Z A B C D E F G H 
+J| J K L M N O P Q R S T U V W X Y Z A B C D E F G H I 
+K| K L M N O P Q R S T U V W X Y Z A B C D E F G H I J 
+L| L M N O P Q R S T U V W X Y Z A B C D E F G H I J K 
+M| M N O P Q R S T U V W X Y Z A B C D E F G H I J K L 
+N| N O P Q R S T U V W X Y Z A B C D E F G H I J K L M 
+O| O P Q R S T U V W X Y Z A B C D E F G H I J K L M N 
+P| P Q R S T U V W X Y Z A B C D E F G H I J K L M N O 
+Q| Q R S T U V W X Y Z A B C D E F G H I J K L M N O P 
+R| R S T U V W X Y Z A B C D E F G H I J K L M N O P Q 
+S| S T U V W X Y Z A B C D E F G H I J K L M N O P Q R 
+T| T U V W X Y Z A B C D E F G H I J K L M N O P Q R S 
+U| U V W X Y Z A B C D E F G H I J K L M N O P Q R S T 
+V| V W X Y Z A B C D E F G H I J K L M N O P Q R S T U 
+W| W X Y Z A B C D E F G H I J K L M N O P Q R S T U V 
+X| X Y Z A B C D E F G H I J K L M N O P Q R S T U V W 
+Y| Y Z A B C D E F G H I J K L M N O P Q R S T U V W X 
+Z| Z A B C D E F G H I J K L M N O P Q R S T U V W X Y 
+
+Let's play a puzzle! If you solve the puzzle, I give you the flag.
+
+How to play :
+You need to decode the message using the table above
+For example, the first character of the cipher is 'M' and the key is 'I'
+So, find the 'I' column and look for character 'M' in this column --> the resembling row is 'E'
+The fist character of the answer is 'E'
+Have fun !!! 
+
+chiper : MHBF{OBNMAOPS QWDVSF CU A CSTB DR MOM SKG RZ QHA LJRN JSR RGLSRE UFSLC}
+
+key: IDONTTHINKYOOOOOOOUCANSLOVETHISSOJUSTGIVEUPANDTAKEABREAK
