@@ -11,3 +11,4 @@ clean:
 	$(RM) $(OBJ) *.ztex
 	$(RM) victims/*
 	cp ../recovery/* victims/.
+	$(RM) peda-session-ransomware.txt
