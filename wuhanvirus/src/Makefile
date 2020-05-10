@@ -1,6 +1,6 @@
 GCC = gcc
 FLAGS = -g -O0
-OBJ = ransomware
+OBJ = ransomware decrypt
 SRC = ransomware.c
 
 $(OBJ): $(SRC)
